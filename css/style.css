@@ -399,7 +399,8 @@ template {
     bottom: 0;
     min-width: 247px;
     min-height: 97px;
-    background-color: #131313; }
+    background-color: #131313;
+    font-family: 'Yeseva One', cursive; }
 
 .instagram {
   background-color: #131313;
