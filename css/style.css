@@ -336,7 +336,11 @@ template {
   .button--outline {
     border: 1px solid #fff;
     background-color: transparent;
-    color: #fff; }
+    color: #fff;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2); }
+    .button--outline:hover {
+      box-shadow: none;
+      transition: box-shadow 0.3s; }
 
 .container {
   width: 85%;
