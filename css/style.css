@@ -388,6 +388,9 @@ body {
   color: #E3B873;
   text-transform: uppercase; }
 
+.logo-a {
+  text-decoration: none; }
+
 .nav__item {
   text-decoration: none;
   color: #fff;
