@@ -452,7 +452,10 @@ body {
     min-height: 97px;
     background-color: #131313;
     font-family: 'Yeseva One', cursive;
-    font-size: 12px; }
+    font-size: 12px;
+    transition: 2s; }
+    .hero__scroll-down:hover {
+      color: #E3B873; }
     .hero__scroll-down:after {
       content: '';
       background: url("../img/arrow-down.svg") no-repeat center;
@@ -475,7 +478,10 @@ body {
     text-decoration: none;
     transform: rotate(90deg);
     line-height: 0.8;
-    font-size: 14px; }
+    font-size: 14px;
+    transition: 2s; }
+    .instagram__link:hover {
+      color: #fff; }
     .instagram__link:after {
       content: '';
       width: 50px;
