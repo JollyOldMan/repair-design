@@ -472,7 +472,7 @@ body {
     background-color: #131313;
     font-family: 'Yeseva One', cursive;
     font-size: 12px;
-    transition: 1s; }
+    transition: color 2s; }
     .hero__scroll-down:hover {
       color: #E3B873; }
     .hero__scroll-down:after {
@@ -498,7 +498,7 @@ body {
     transform: rotate(90deg);
     line-height: 0.8;
     font-size: 14px;
-    transition: 1s;
+    transition: color 2s;
     font-size: 1.1rem; }
     .instagram__link:hover {
       color: #fff; }
