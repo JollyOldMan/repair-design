@@ -389,6 +389,16 @@ img {
         background-color: #E3B873;
         margin: 0 10px; }
 
+.description {
+  width: 53rem;
+  height: 4rem;
+  margin: auto;
+  margin-bottom: 2.785rem;
+  text-align: center;
+  font-family: 'Futura Book' cursive;
+  line-height: 2rem;
+  font-size: 1.4rem; }
+
 .header {
   position: fixed;
   left: 0;
@@ -548,7 +558,8 @@ img {
   font-family: 'Yeseva One', cursive;
   font-size: 1.29rem;
   margin-top: 0;
-  margin-bottom: 0.7rem; }
+  margin-bottom: 0.7rem;
+  font-weight: normal; }
 
 .card__list {
   padding: 0 0 0 1rem;
@@ -556,7 +567,8 @@ img {
   font-size: 1.07rem;
   line-height: 1.79rem;
   color: #959595;
-  margin-bottom: 2.5rem; }
+  margin-bottom: 2.5rem;
+  font-weight: normal; }
 
 .card__pricetag {
   position: absolute;
@@ -564,10 +576,28 @@ img {
   bottom: -1.79rem;
   font-size: 1.29rem;
   font-family: 'Yeseva One', cursive;
+  font-weight: normal;
   text-transform: uppercase;
   background-color: #E3B873;
   color: #fff;
-  padding: 1.214rem 2.6rem; }
+  padding: 1.214rem 2.6rem;
+  font-size: 18px; }
+
+.card--design {
+  padding-top: 1.214rem;
+  padding-right: 5rem;
+  position: absolute;
+  left: 0;
+  bottom: -1.79rem;
+  font-size: 1.29rem;
+  font-family: 'Yeseva One', cursive;
+  font-weight: normal;
+  text-transform: uppercase;
+  background-color: #E3B873;
+  color: #fff; }
+
+.section-title__heading {
+  font-weight: normal; }
 
 @media screen and (max-width: 1400px) {
   .nav__item {
@@ -594,7 +624,10 @@ img {
   .types__card {
     margin-bottom: 5.7rem; }
   .card__text {
-    margin-left: 0; } }
+    margin-left: 0; }
+  .description {
+    width: auto;
+    height: auto; } }
 
 @media screen and (max-width: 570px) {
   .contacts__phone {
