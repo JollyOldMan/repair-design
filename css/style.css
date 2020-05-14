@@ -389,6 +389,18 @@ template {
     cursor: pointer;
     margin-right: 0.64rem; }
 
+.back-to-top {
+  position: fixed;
+  right: 0.714rem;
+  bottom: 14.285rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-color: transparent;
+  border-radius: 50%;
+  background: url("../img/up.svg");
+  background-color: #131313;
+  display: none; }
+
 .container {
   width: 85%;
   max-width: 1256px;
@@ -496,12 +508,13 @@ img {
     position: relative;
     margin-left: 4.28rem; }
   .hero__text {
+    margin: 0;
     font-size: 1.57rem;
     max-width: 500px;
-    line-height: 120%;
-    margin-bottom: 3rem; }
+    line-height: 30px;
+    margin-bottom: 45px; }
   .hero__button {
-    margin-right: 20px; }
+    margin-right: 1.214rem; }
   .hero__instagram {
     max-width: 80px;
     height: 100%;
@@ -565,8 +578,9 @@ img {
   font-family: 'Yeseva One', cursive;
   text-transform: uppercase;
   font-size: 2.857rem;
-  line-height: 1.4;
-  font-weight: normal; }
+  line-height: 3.7rem;
+  font-weight: normal;
+  margin-bottom: 17px; }
   .title--primary {
     color: #E3B873; }
 
@@ -680,7 +694,8 @@ img {
     margin-bottom: 2rem; }
   .modal__form {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    outline: none; }
   .modal__input {
     margin-bottom: 3.428rem; }
     .modal__input:last-of-type {
