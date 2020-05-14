@@ -377,7 +377,9 @@ template {
 
 .policy__label {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  margin-top: -1.257rem;
+  font-size: 16px; }
   .policy__label::before {
     content: '';
     width: 1.285rem;
@@ -634,6 +636,8 @@ img {
   font-weight: normal; }
 
 .modal {
+  opacity: 0;
+  visibility: hidden;
   position: fixed;
   z-index: 199;
   left: 0;
@@ -646,6 +650,9 @@ img {
   display: flex;
   align-items: center;
   justify-content: center; }
+  .modal--visible {
+    opacity: 1;
+    visibility: visible; }
   .modal__dialog {
     position: relative;
     background: #131313 url("../img/bg-lines.svg") no-repeat center;
@@ -666,9 +673,11 @@ img {
   .modal__title {
     font-family: 'Yeseva One', cursive;
     font-size: 1.357rem;
+    font-weight: normal;
+    line-height: 1.857rem;
     text-align: center;
     margin: 0;
-    margin-bottom: 2.428rem; }
+    margin-bottom: 2rem; }
   .modal__form {
     display: flex;
     flex-direction: column; }
@@ -679,7 +688,9 @@ img {
   .modal__policy {
     margin-bottom: 2.7rem; }
   .modal__button {
-    align-self: flex-end; }
+    align-self: flex-end;
+    width: 15.6rem;
+    height: 3.642rem; }
 
 @media screen and (max-width: 1400px) {
   .nav__item {
