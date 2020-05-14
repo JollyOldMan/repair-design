@@ -12,4 +12,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     closeBtn.addEventListener('click', switchModal);
 
+
+    modal.addEventListener('click', (event) => {
+        if (event.target === modal)  {
+            switchModal();
+        }
+    })
+
 })
