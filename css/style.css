@@ -415,7 +415,7 @@ template {
   flex-basis: 30%; }
 
 .col-50 {
-  flex-basis: 50%; }
+  width: 50%; }
 
 *, *:before, *:after {
   box-sizing: border-box; }
@@ -442,7 +442,9 @@ img {
     .section-title__heading {
       text-transform: uppercase;
       font-family: 'Yeseva One', cursive;
-      line-height: 138.6%; }
+      line-height: 2.642rem;
+      font-size: 1.928rem;
+      font-weight: normal; }
       .section-title__heading--primary {
         color: #E3B873; }
     .section-title__word {
@@ -457,7 +459,9 @@ img {
     .section-title__text {
       font-size: 1.28rem;
       line-height: 2.07rem;
-      max-width: 31.57rem; }
+      max-width: 31.57rem;
+      font-weight: normal;
+      font-family: 'Futura Book' cursive; }
     .section-title__image {
       display: flex;
       justify-content: center;
@@ -741,6 +745,50 @@ img {
     align-self: flex-end;
     width: 15.6rem;
     height: 3.642rem; }
+
+.swiper-slide {
+  display: flex;
+  flex-wrap: wrap; }
+  .swiper-slide__text {
+    flex-basis: 50%;
+    margin-bottom: 2.42rem;
+    padding-bottom: 2rem;
+    line-height: 1.428rem;
+    font-weight: normal;
+    font-family: 'Futura Book' cursive; }
+  .swiper-slide__heading {
+    font-size: 1.285rem;
+    line-height: 1.78rem;
+    font-family: 'Yeseva One', cursive;
+    font-weight: normal;
+    color: #E3B873;
+    text-transform: uppercase;
+    margin-bottom: 0.64rem; }
+
+.swiper-pagination-bullet {
+  background-color: rgba(255, 255, 255, 0.3); }
+  .swiper-pagination-bullet-active {
+    background-color: #fff; }
+
+.swiper-button-prev, .swiper-button-next {
+  bottom: 0;
+  top: auto;
+  background-size: 42px;
+  width: 42px;
+  height: 14px; }
+  .swiper-button-prev::after, .swiper-button-next::after {
+    display: none; }
+
+.swiper-button-prev {
+  left: 0;
+  background: url("../img/arrow-prev.svg") no-repeat center; }
+
+.swiper-button-next {
+  background: url("../img/arrow-next.svg") no-repeat center; }
+
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  width: auto;
+  bottom: -2px; }
 
 @media screen and (max-width: 1400px) {
   .nav__item {
