@@ -391,6 +391,7 @@ template {
 
 .back-to-top {
   position: fixed;
+  z-index: 1;
   right: 0.714rem;
   bottom: 14.285rem;
   width: 3.5rem;
@@ -818,7 +819,13 @@ img {
     margin-left: 0; }
   .description {
     width: auto;
-    height: auto; } }
+    height: auto; }
+  .swiper-button-prev {
+    margin-bottom: 2.785rem; }
+  .swiper-button-next {
+    margin-bottom: 2.785rem; }
+  .swiper-container-horizontal > .swiper-pagination-bullets {
+    margin-bottom: 2.785rem; } }
 
 @media screen and (max-width: 570px) {
   .contacts__phone {
@@ -840,6 +847,14 @@ img {
     display: block;
     min-width: 22.86rem;
     margin-bottom: 1.85rem; } }
+
+@media screen and (max-width: 490px) {
+  .section-title__heading {
+    margin-left: -91px; }
+  .section-title__text {
+    margin-left: -91px; }
+  .swiper-slide__text {
+    justify-content: flex-start; } }
 
 @media screen and (max-height: 520px) {
   .hero__scroll-down {
